@@ -1,0 +1,11 @@
+{
+  "exported_ids": [
+    "sample-generation-id"
+  ],
+  "exports_by_id": {
+    "sample-generation-id": {
+      "json": "sample_exports/leonardo_json/sample_generation.json",
+      "markdown": "sample_exports/leonardo_md/sample_generation.md"
+    }
+  }
+}

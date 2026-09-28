@@ -1,0 +1,12 @@
+{
+  "id": "sample-generation-id",
+  "createdAt": "2026-01-01T00:00:00Z",
+  "prompt": "Sanitized sample prompt for documentation and tests.",
+  "modelId": "sample-model-id",
+  "generated_images": [
+    {
+      "id": "sample-image-id",
+      "url": "https://example.invalid/leonardo/sample-image.png"
+    }
+  ]
+}
