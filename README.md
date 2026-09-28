@@ -135,3 +135,7 @@ PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -v
 The exporter uses Leonardo.Ai's REST base URL and bearer-token authentication.
 API behavior can evolve; consult the current official Leonardo.Ai API
 documentation before adapting endpoints or response shapes.
+
+## License
+
+Released under the [MIT License](LICENSE). Copyright © 2026 Nathalie Hornick.
