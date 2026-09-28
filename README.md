@@ -14,6 +14,37 @@ The tools do not create images or upload assets. Prompts, account identifiers,
 generation metadata, and media URLs may still be private, so real exports stay
 inside ignored local directories. The committed examples are synthetic.
 
+## Workflow
+
+```text
+Leonardo.Ai
+    ↓
+read-only API or saved payload
+    ↓
+Python exporter
+    ↓
+metadata normalization
+    ↓
+JSON snapshot + Markdown note
+    ↓
+Obsidian
+```
+
+## What this demonstrates
+
+- authenticated API integration without embedding credentials in code;
+- incremental export backed by an explicit local state file;
+- deterministic transformation from JSON metadata to Markdown;
+- privacy boundaries between public fixtures and private runtime output;
+- automated tests for rendering, state handling, and fixture hygiene.
+
+## Example output in Obsidian
+
+The screenshot below is an author-approved portfolio example from a real
+generation. The repository's executable fixtures and tests remain synthetic.
+
+![Leonardo generation rendered as a structured Obsidian note](assets/leonardo-to-obsidian-note.png)
+
 ## Requirements
 
 - Python 3.11 or newer;
